@@ -1,4 +1,4 @@
-package com.codegym.cms;
+package com.codegym;
 
 import com.codegym.repository.CustomerRepository;
 import com.codegym.repository.CustomerRepositoryImpl;

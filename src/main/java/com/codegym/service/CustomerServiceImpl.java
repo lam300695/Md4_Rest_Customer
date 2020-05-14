@@ -12,7 +12,7 @@ public class CustomerServiceImpl implements CustomerService {
     CustomerRepository customerRepository;
 
     @Override
-    public List<Customer> findAll() {
+    public Iterable<Customer> findAll() {
         return customerRepository.findAll();
     }
 

@@ -16,7 +16,7 @@ public class CustomerRepositoryImpl implements CustomerRepository {
     private EntityManager em;
 
     @Override
-    public List<Customer> findAll() {
+    public Iterable<Customer> findAll() {
         TypedQuery<Customer> query = em.createQuery("select c from Customer c", Customer.class);
         return query.getResultList();
     }
